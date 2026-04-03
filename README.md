@@ -448,9 +448,6 @@ Never run with `ddl-auto: create` or `create-drop` outside of unit tests. It dro
 ---
 
 ## Questions?
-
-- Architecture decisions → see `SETUP_REFERENCE.md` → Decision Log section
-- Blocked on setup → share exact error output in Slack, not screenshots of errors
 - Want to add a new service → follow the checklist above, then open a PR
 
 ---
