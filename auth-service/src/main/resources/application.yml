@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: auth-service
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/auth_db
+    username: hiresignal
+    password: hiresignal123
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update        # auto-creates/updates tables from your @Entity classes
+    show-sql: true            # logs every SQL query — essential during development
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      password: redis123
+
+server:
+  port: 8081
+
+logging:
+  level:
+    com.hiresignal: DEBUG     # your code logs at DEBUG level
+    org.springframework.security: DEBUG
