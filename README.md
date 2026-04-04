@@ -59,7 +59,7 @@ Install these before anything else. No exceptions.
 
 | Tool | Version | Download |
 |------|---------|----------|
-| Java JDK | 17+ | https://adoptium.net |
+| Java JDK | 17+ | https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html |
 | Docker Desktop | Latest | https://www.docker.com/products/docker-desktop |
 | IntelliJ IDEA | Any | https://www.jetbrains.com/idea |
 | Node.js + npm | 18+ | https://nodejs.org |
