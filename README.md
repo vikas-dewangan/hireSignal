@@ -64,6 +64,7 @@ Install these before anything else. No exceptions.
 | IntelliJ IDEA | Any | https://www.jetbrains.com/idea |
 | Node.js + npm | 18+ | https://nodejs.org |
 | Git | Any | https://git-scm.com |
+| Gradle | 8.5 | https://gradle.org/releases/ |
 
 Verify your installs:
 
