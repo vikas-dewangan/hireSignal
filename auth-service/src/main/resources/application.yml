@@ -30,3 +30,8 @@ logging:
   level:
     com.hiresignal: DEBUG     # your code logs at DEBUG level
     org.springframework.security: DEBUG
+
+jwt:
+  secret: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
+  access-token-expiry: 900000       # 15 minutes in ms
+  refresh-token-expiry: 604800000   # 7 days in ms
