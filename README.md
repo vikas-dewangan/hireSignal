@@ -454,3 +454,7 @@ Never run with `ddl-auto: create` or `create-drop` outside of unit tests. It dro
 ---
 
 *HireSignal — built by engineers, for engineers.*
+
+## Author & Contributors
+- Vikas D
+- Saurabh L
