@@ -1,7 +1,16 @@
 rootProject.name = 'hiresignal'
 
+//Use common only for truly generic things (like shared DTOs, BaseException or utility constants), not for business logic.
 include 'common'
+
+// Register all services
 include 'auth-service'
 include 'job-service'
 include 'user-service'
 include 'notification-service'
+
+// Map the service to its folder location
+project(':auth-service').projectDir = file('services/auth-service')
+project(':job-service').projectDir = file('services/job-service')
+project(':user-service').projectDir = file('services/user-service')
+project(':notification-service').projectDir = file('services/notification-service')
